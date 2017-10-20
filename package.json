@@ -1,0 +1,29 @@
+{
+  "name": "http-reverse-proxy",
+  "version": "0.0.1",
+  "description": "A simple tool to launch a reverse proxy http server based on http-proxy package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelilah/http-reverse-proxy.git"
+  },
+  "keywords": [
+    "http",
+    "reverse",
+    "proxy"
+  ],
+  "author": "Abdelilah Sawab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelilah/http-reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/abdelilah/http-reverse-proxy#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "http-proxy": "^1.16.2"
+  }
+}
